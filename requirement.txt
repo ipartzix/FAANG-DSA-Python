@@ -1,0 +1,78 @@
+FAANG-DSA-Python/
+├── 00_Introduction/
+│   ├── README.md
+│   └── Python_Basics.md
+├── 01_Arrays/
+│   ├── README.md
+│   ├── basic_operations.py
+│   ├── two_pointers.py
+│   ├── sliding_window.py
+│   └── advanced_problems.py
+├── 02_Strings/
+│   ├── README.md
+│   ├── palindrome.py
+│   ├── anagram.py
+│   ├── substring_search.py
+│   └── advanced_strings.py
+├── 03_LinkedLists/
+│   ├── README.md
+│   ├── singly_linked_list.py
+│   ├── doubly_linked_list.py
+│   ├── reverse_linked_list.py
+│   └── linkedlist_problems.py
+├── 04_StacksQueues/
+│   ├── README.md
+│   ├── stack_basics.py
+│   ├── queue_basics.py
+│   ├── balanced_parentheses.py
+│   └── sliding_window_max.py
+├── 05_Hashing/
+│   ├── README.md
+│   ├── two_sum.py
+│   ├── subarray_sum.py
+│   └── hashmap_problems.py
+├── 06_Heaps/
+│   ├── README.md
+│   ├── kth_largest_smallest.py
+│   ├── merge_k_sorted_lists.py
+│   └── heap_problems.py
+├── 07_Trees/
+│   ├── README.md
+│   ├── binary_tree_traversal.py
+│   ├── bst_operations.py
+│   └── tree_problems.py
+├── 08_Graphs/
+│   ├── README.md
+│   ├── bfs_dfs.py
+│   ├── shortest_path.py
+│   └── advanced_graphs.py
+├── 09_RecursionBacktracking/
+│   ├── README.md
+│   ├── n_queens.py
+│   ├── sudoku_solver.py
+│   ├── subset_sum.py
+│   └── recursion_problems.py
+├── 10_DynamicProgramming/
+│   ├── README.md
+│   ├── fibonacci.py
+│   ├── knapsack_01.py
+│   ├── lis_lcs.py
+│   └── dp_problems.py
+├── 11_Greedy/
+│   ├── README.md
+│   ├── activity_selection.py
+│   ├── fractional_knapsack.py
+│   └── greedy_problems.py
+├── 12_SearchingSorting/
+│   ├── README.md
+│   ├── binary_search.py
+│   ├── merge_sort.py
+│   ├── quick_sort.py
+│   └── sorting_problems.py
+├── 13_AdvancedTopics/
+│   ├── README.md
+│   ├── trie.py
+│   ├── segment_tree.py
+│   ├── dsu_union_find.py
+│   └── advanced_problems.py
+└── README.md
