@@ -35,3 +35,18 @@ Understanding algorithm efficiency is crucial. These notations describe **time/s
 | O(g(n))  | Upper      | Worst-case              |
 | Ω(g(n))  | Lower      | Best-case               |
 | Θ(g(n))  | Tight      | Exact asymptotic growth |
+
+---
+ ## Time Efficiency (Time Complexity) ⏱️
+ 
+ How fast does an algorithm run as input size increases.
+We measure it using Big-O notation.
+
+| Complexity   | Meaning           | Example                  |
+| ------------ | ----------------- | ------------------------ |
+| `O(1)`       | Constant time     | Accessing an array index |
+| `O(log n)`   | Logarithmic       | Binary search            |
+| `O(n)`       | Linear            | Single loop              |
+| `O(n log n)` | Efficient sorting | Merge sort               |
+| `O(n²)`      | Nested loops      | Bubble sort              |
+| `O(2ⁿ)`      | Exponential       | Brute-force recursion    |
