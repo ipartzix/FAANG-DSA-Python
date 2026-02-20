@@ -100,3 +100,84 @@ def sum_array(arr):
     for num in arr:
         total += num
     return total
+
+```
+---
+
+# Time vs Space Trade-off
+
+In algorithm design, improving time complexity often increases space complexity — and vice versa.
+
+This is called a **Time–Space Trade-off**.
+
+---
+
+## 1. What is the Trade-off?
+
+- Faster execution → Usually requires extra memory
+- Lower memory usage → May increase computation time
+
+Goal: Choose the optimal balance based on constraints.
+
+---
+
+## 2. Classic Example: Searching
+
+### Approach 1: Linear Search
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+No extra memory, but slower.
+
+---
+
+### Approach 2: Hashing
+- Time Complexity: O(1) average
+- Space Complexity: O(n)
+
+Faster lookups, but requires additional memory.
+
+---
+
+## 3. Example: Fibonacci
+
+### Recursive (Naive)
+- Time: O(2^n)
+- Space: O(n) (recursion stack)
+
+### Dynamic Programming (Memoization)
+- Time: O(n)
+- Space: O(n)
+
+Faster, but uses extra memory.
+
+---
+
+## 4. When to Optimize What?
+
+| Scenario | Optimize |
+|----------|----------|
+| Memory constrained system | Space |
+| Performance-critical system | Time |
+| Large input sizes | Time (usually) |
+| Embedded systems | Space |
+
+---
+
+## 5. Interview Insight
+
+In technical interviews:
+- Always state both time and space complexity.
+- If you optimize time, mention the space trade-off.
+- Discuss alternatives before coding.
+
+---
+
+## Summary
+
+Efficient algorithm design is not just about speed.
+It is about balancing:
+
+Time Efficiency ⚡  
+Space Efficiency 💾  
+Problem Constraints 🎯
