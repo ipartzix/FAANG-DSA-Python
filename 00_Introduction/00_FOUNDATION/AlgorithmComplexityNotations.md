@@ -181,3 +181,23 @@ It is about balancing:
 Time Efficiency ⚡  
 Space Efficiency 💾  
 Problem Constraints 🎯
+
+## Writing Optimized DSA Code
+
+Writing efficient DSA solutions is not just about correctness — it is about optimization.
+
+### 1. Minimize Time Complexity
+- Prefer O(log n) or O(n) over O(n²)
+- Avoid unnecessary nested loops
+- Use appropriate data structures (HashMap, Heap, Set, etc.)
+
+### 2. Control Space Usage
+- Avoid creating extra arrays if not required
+- Use in-place modifications when possible
+- Be careful with recursion (stack space)
+
+### 3. Choose the Right Data Structure
+- Fast lookup → Hashing
+- Ordered data → Tree / BST
+- Priority operations → Heap
+- Constant access → Array
