@@ -201,3 +201,15 @@ Writing efficient DSA solutions is not just about correctness — it is about op
 - Ordered data → Tree / BST
 - Priority operations → Heap
 - Constant access → Array
+
+### 4. Avoid Redundant Computation
+- Use memoization or dynamic programming
+- Store intermediate results when needed
+
+### 5. Always Analyze
+Before finalizing code, check:
+- Time Complexity
+- Space Complexity
+- Edge cases
+
+Efficient DSA code = Correctness + Optimal Complexity + Clean Logic.
