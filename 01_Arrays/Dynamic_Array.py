@@ -6,9 +6,17 @@ class MeraList:
         # create a C type array with size = self.size 
         self.A = self.__make_array(self.size) # pyright: ignore[reportAttributeAccessIssue]
     
+    def __len__(self):
+        return self.n
+    
     def __make_array(self,capacity):
         # this code create a c type array with fixed capacity also it is a referential array 
         return (capacity*ctypes.py_object)()
     
 L = MeraList()
 print(type(L))
+L =[10 ,20 ,30]
+print(len(L))
+L.append("Hello") # type: ignore
+print(L)
+print(len(L))
