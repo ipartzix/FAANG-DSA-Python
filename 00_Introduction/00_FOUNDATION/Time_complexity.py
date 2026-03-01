@@ -116,3 +116,22 @@ end = time.time()
 
 print("Sorted array: - Time_complexity.py:117", arr)
 print("Execution Time: - Time_complexity.py:118", end - start)
+
+print("Fibonacci Using Recursion (O(2ⁿ)) - Time_complexity.py:120")
+import time
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+# Example
+n = 10
+
+start = time.time()
+result = fibonacci(n)
+end = time.time()
+
+print("Fibonacci of - Time_complexity.py:136", n, "is:", result)
+print("Execution Time: - Time_complexity.py:137", end - start)
