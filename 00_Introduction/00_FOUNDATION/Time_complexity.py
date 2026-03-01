@@ -135,3 +135,27 @@ end = time.time()
 
 print("Fibonacci of - Time_complexity.py:136", n, "is:", result)
 print("Execution Time: - Time_complexity.py:137", end - start)
+
+
+print("Generate All Permutations (O(n!)) - Time_complexity.py:140")
+
+import time
+
+def permute(arr, l, r):
+    if l == r:
+        print(arr)
+    else:
+        for i in range(l, r + 1):
+            arr[l], arr[i] = arr[i], arr[l]   # swap
+            permute(arr, l + 1, r)
+            arr[l], arr[i] = arr[i], arr[l]   # backtrack
+
+
+# Example
+arr = [1, 2, 3]
+
+start = time.time()
+permute(arr, 0, len(arr) - 1)
+end = time.time()
+
+print("Execution Time: - Time_complexity.py:161", end - start)
