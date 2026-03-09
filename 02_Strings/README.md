@@ -1,5 +1,4 @@
 # Strings
-
 ## Key Concepts
 - Immutability in Python
 - Indexing & slicing
