@@ -145,3 +145,4 @@ if __name__ == "__main__":
     print("After Clear, Length: - Dynamic_Array.py:145", len(L))
 
     # all are in one formated
+    # append , lenth , index , pop , remove etc
