@@ -11,3 +11,13 @@ def reverse_array(arr):
         left += 1
         right -= 1
     return arr
+
+print("Rotate Array:")
+
+# Rotate right by k positions
+def rotate_array(arr, k):
+    k = k % len(arr)  # Handle k > array length
+    return arr[-k:] + arr[:-k]
+
+arr = [1, 2, 3, 4, 5]
+print(rotate_array(arr, 2))  # [4, 5, 1, 2, 3]
