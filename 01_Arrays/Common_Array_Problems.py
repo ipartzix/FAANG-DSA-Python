@@ -31,3 +31,19 @@ def find_missing(arr, n):
 
 arr = [1, 2, 4, 5, 6]  # 3 is missing
 print(find_missing(arr, 6))  # Output: 3
+
+
+print("Two Sum Problem")
+
+# Find two numbers that add up to target
+def two_sum(arr, target):
+    seen = {}  # Store numbers we’ve seen
+    for i, num in enumerate(arr):
+        complement = target - num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i
+    return []
+
+arr = [2, 7, 11, 15]
+print(two_sum(arr, 9))  # [0, 1] because arr[0] + arr[1] = 9
