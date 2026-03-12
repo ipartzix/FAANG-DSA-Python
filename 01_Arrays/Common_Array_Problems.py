@@ -21,3 +21,13 @@ def rotate_array(arr, k):
 
 arr = [1, 2, 3, 4, 5]
 print(rotate_array(arr, 2))  # [4, 5, 1, 2, 3]
+
+print("Find Missing Number:")
+# Array should have numbers 1 to n, find missing one
+def find_missing(arr, n):
+    expected_sum = n * (n + 1) // 2  # Sum formula
+    actual_sum = sum(arr)
+    return expected_sum - actual_sum
+
+arr = [1, 2, 4, 5, 6]  # 3 is missing
+print(find_missing(arr, 6))  # Output: 3
