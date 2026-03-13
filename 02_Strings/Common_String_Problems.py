@@ -18,3 +18,12 @@ def reverse_string_manual(s):
     return ''.join(chars)
 
 print(reverse_string_manual("hello"))
+
+print("Palindrome Check")
+def is_palindrome(s):
+    # Remove spaces and convert to lowercase
+    s = s.replace(" ", "").lower()
+    return s == s[::-1]
+
+print(is_palindrome("A man a plan a canal Panama"))  # True
+print(is_palindrome("hello"))  # False
