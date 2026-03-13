@@ -82,3 +82,5 @@ def count_vowels_short(s):
 
 print(count_vowels("Hello World"))  # 3
 print(count_vowels_short("Hello World"))  # 3
+
+print("This is the basic operation on string ")
