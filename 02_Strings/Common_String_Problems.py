@@ -46,3 +46,20 @@ def is_anagram_better(s1, s2):
 
 print(is_anagram_better("listen", "silent"))  # True
 print(is_anagram_better("hello", "world"))    # False
+
+
+
+print("First Non-Repeating Character")
+from collections import Counter
+
+def first_non_repeating(s):
+    # Count each character
+    count = Counter(s)
+
+    # Find first character with count 1
+    for i, char in enumerate(s):
+        if count[char] == 1:
+            return i
+    return -1
+
+print(first_non_repeating("aabbccdef"))  # 6 (index of 'd')
