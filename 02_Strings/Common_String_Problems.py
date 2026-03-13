@@ -27,3 +27,22 @@ def is_palindrome(s):
 
 print(is_palindrome("A man a plan a canal Panama"))  # True
 print(is_palindrome("hello"))  # False
+
+
+print("Anagram Check")
+def is_anagram(s1, s2):
+    # Anagrams have same letters, different order
+    return sorted(s1) == sorted(s2)
+
+print(is_anagram("listen", "silent"))  # True
+print(is_anagram("hello", "world"))    # False
+
+
+# Better method using Counter
+from collections import Counter
+
+def is_anagram_better(s1, s2):
+    return Counter(s1) == Counter(s2)
+
+print(is_anagram_better("listen", "silent"))  # True
+print(is_anagram_better("hello", "world"))    # False
