@@ -63,3 +63,22 @@ def first_non_repeating(s):
     return -1
 
 print(first_non_repeating("aabbccdef"))  # 6 (index of 'd')
+
+
+print("Count Vowels")
+def count_vowels(s):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in s:
+        if char in vowels:
+            count += 1
+    return count
+
+
+# One-liner version
+def count_vowels_short(s):
+    return sum(1 for char in s if char.lower() in "aeiou")
+
+
+print(count_vowels("Hello World"))  # 3
+print(count_vowels_short("Hello World"))  # 3
