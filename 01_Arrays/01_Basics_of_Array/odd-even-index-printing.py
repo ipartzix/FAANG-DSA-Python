@@ -6,3 +6,10 @@ for _ in arr:
     if i % 2 == 0:
         print(arr[i])
     i += 1
+
+print("Odd index values :")
+i =0
+for _ in arr:
+    if i % 2 != 0:
+        print(arr[i])
+    i += 1
