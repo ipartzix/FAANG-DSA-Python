@@ -9,4 +9,4 @@ for num in numbers:
     if num < min_element:
         min_element = num  # Update the minimum if a smaller number is found
 
-print("Maximum element:", min_element)
+print("Minimum element:", min_element)
