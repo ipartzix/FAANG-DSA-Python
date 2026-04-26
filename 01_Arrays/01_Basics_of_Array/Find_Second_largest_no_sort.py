@@ -19,3 +19,6 @@ def second_largest(arr):
     return second
 
 
+# Example
+arr = [5, 10, 7, 13]
+print(second_largest(arr))  # Output: 10
