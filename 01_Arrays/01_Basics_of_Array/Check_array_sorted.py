@@ -5,6 +5,11 @@ def is_sorted_ASC(arr):
             return False
     return True
 
+def is_sorted_DESC(arr):
+    for i in range(len(arr) - 1):
+        if arr[i] < arr[i + 1]:
+            return False
+    return True
 
 
 # Input
