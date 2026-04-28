@@ -38,3 +38,8 @@ print_unique(arr)   # Output: 1 3 5
 # # Example
 # arr = [1, 2, 2, 3, 4, 4, 5]
 # print_unique(arr)   # Output: 1 3 5
+
+# Why hash map is better
+# Time Complexity: O(n) (single pass + lookup)
+# Space Complexity: O(n)
+# Cleaner and scalable for large inputs
