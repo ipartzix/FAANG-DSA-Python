@@ -1,4 +1,5 @@
 # 3. Copy only even elements into new array
+# basic way
 arr = [2, 55, 67, 9, 74, 3, 89, 9, 55]
 
 even_arr = []
