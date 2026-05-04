@@ -15,3 +15,17 @@ for i in range(len(arr)):
             visited[j] = True
 
     print(arr[i], "->", count)
+
+print("with dict ")
+arr = [2, 55, 67, 9, 74, 3, 89, 9, 55]
+
+freq = {}
+
+for num in arr:
+    if num in freq:
+        freq[num] += 1
+    else:
+        freq[num] = 1
+
+for key, value in freq.items():
+    print(key, "->", value)
