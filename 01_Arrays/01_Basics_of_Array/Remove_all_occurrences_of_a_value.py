@@ -36,6 +36,5 @@ print(new_len)  # 4
 #
 #     return result
 #
-#
 # # Example
 # print(remove_substring("abcdeabc", "abc"))  # "de"
