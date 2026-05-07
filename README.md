@@ -158,17 +158,3 @@ This repository is part of a long-term journey to become a strong Computer Scien
 This project is licensed under the MIT License.
 
 ---
-
-# 📬 Connect
-
-## GitHub
-Add your GitHub profile link here.
-
-## LinkedIn
-Add your LinkedIn profile link here.
-
----
-
-# 💡 Quote
-
-> "Consistency beats intensity when practiced every single day."
