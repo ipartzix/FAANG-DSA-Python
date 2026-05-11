@@ -4,7 +4,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-## 📌 Goals
+##  Goals
 
 - Master Data Structures and Algorithms using Python
 - Prepare for FAANG-level coding interviews
@@ -15,7 +15,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-# 🚀 Topics Covered
+#  Topics Covered
 
 ## Beginner Level
 - Variables and Data Types
