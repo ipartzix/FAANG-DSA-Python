@@ -47,7 +47,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-# 🧠 Problem Solving Platforms
+#  Problem Solving Platforms
 
 - LeetCode
 - Codeforces
