@@ -57,7 +57,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-# 📈 Learning Roadmap
+#  Learning Roadmap
 
 ## Phase 1 — Fundamentals
 - Python Basics
@@ -85,7 +85,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-# 🛠 Languages & Tools
+#  Languages & Tools
 
 - Python 3
 - VS Code / PyCharm
@@ -94,7 +94,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-# 📚 Resources
+#  Resources
 
 ## DSA Learning
 - GeeksforGeeks
@@ -108,7 +108,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-# 🔥 Current Focus
+#  Current Focus
 
 - Solving DSA problems daily
 - Building strong problem-solving skills
@@ -117,7 +117,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-# 📊 Progress Tracking
+#  Progress Tracking
 
 | Topic | Status |
 |-------|--------|
@@ -130,7 +130,7 @@ A complete Data Structures and Algorithms repository in Python focused on coding
 
 ---
 
-# 🤝 Contributions
+#  Contributions
 
 Contributions, suggestions, and optimizations are welcome.
 
@@ -141,7 +141,7 @@ Contributions, suggestions, and optimizations are welcome.
 
 ---
 
-# ⭐ Repository Purpose
+#  Repository Purpose
 
 This repository is part of a long-term journey to become a strong Computer Science Engineer with expertise in:
 
@@ -153,7 +153,7 @@ This repository is part of a long-term journey to become a strong Computer Scien
 
 ---
 
-# 📜 License
+#  License
 
 This project is licensed under the MIT License.
 
