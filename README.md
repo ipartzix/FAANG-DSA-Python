@@ -152,9 +152,3 @@ This repository is part of a long-term journey to become a strong Computer Scien
 - System-Level Development
 
 ---
-
-#  License
-
-This project is licensed under the MIT License.
-
----
