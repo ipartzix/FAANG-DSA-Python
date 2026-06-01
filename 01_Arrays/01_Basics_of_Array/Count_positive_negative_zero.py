@@ -5,6 +5,7 @@ positive_count = 0
 negative_count = 0
 zero_count = 0
 
+
 for num in numbers:
     if num > 0:
         positive_count += 1
