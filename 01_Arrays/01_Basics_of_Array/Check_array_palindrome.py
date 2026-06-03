@@ -5,12 +5,13 @@ def is_palindrome(arr):
 
     while left < right:
         if arr[left] != arr[right]:
+
             return False
         left += 1
         right -= 1
 
-    return True
 
+    return True
 
 # Example
 arr = [1, 2, 3, 2, 1]
