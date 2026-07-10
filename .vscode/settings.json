@@ -1,0 +1,5 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python.defaultInterpreterPath": "C:\\Users\\ipartzix\\anaconda3\\envs\\faang-dsa-python\\python.exe"
+}
