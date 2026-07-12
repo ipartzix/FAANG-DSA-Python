@@ -5,7 +5,6 @@ positive_count = 0
 negative_count = 0
 zero_count = 0
 
-
 for num in numbers:
     if num > 0:
 
@@ -18,6 +17,7 @@ for num in numbers:
     else:
         
         zero_count += 1
+
 
 print("Positive numbers:", positive_count)
 print("Negative numbers:", negative_count)
