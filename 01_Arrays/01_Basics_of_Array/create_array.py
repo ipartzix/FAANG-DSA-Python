@@ -9,6 +9,8 @@
 # print(data_list)
 # Create an array and print all elements
 
+
+
 from array import array
 
 arr = array('i', [2, 4, 5, 67, 889, 9])  # 'i' → integer array
