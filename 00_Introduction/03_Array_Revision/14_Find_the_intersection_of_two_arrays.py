@@ -8,4 +8,4 @@ for x in arr1:
     if x in arr2:
         intersection.append(x)
 
-print(intersection)
+print( "print interseption",intersection)
