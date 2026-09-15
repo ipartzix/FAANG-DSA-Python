@@ -1,10 +1,7 @@
-# Stacks & Queues
+# Stacks 
 
 ## Key Concepts
 - Stack: LIFO, push/pop
-- Queue: FIFO, enqueue/dequeue
-- Priority queue (heap-based)
-
 ## Patterns
 - Monotonic stacks
 - Balanced parentheses
