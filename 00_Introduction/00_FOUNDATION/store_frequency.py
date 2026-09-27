@@ -11,3 +11,16 @@ for i in range(0, len(num)):
     else:
         freq_map[num[i]] = 1
 print(freq_map[1])
+
+
+# Method 2
+print("_________________________________")
+nums = [1,3,5,4,2,3,7,1,1,2,4,8,7,5,1,7]
+freq = {}
+
+n = len(nums)
+
+for i in range(0, n):
+  freq[nums[i]] = freq.get(nums[i],0)+1
+
+print(freq)
