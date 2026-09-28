@@ -16,7 +16,7 @@ for num in m:
             count += 1
     print(count)
 
-Time complexity O(m*n)
+# Time complexity O(m*n)
 
 """
 Optimized method 
