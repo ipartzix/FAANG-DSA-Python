@@ -24,8 +24,6 @@ Optimized method
 """
 Using List
 """
-step 1:- create a list
-
 hash_list = [0]* 11
 for num in n:
     hash_list[num] += 1
