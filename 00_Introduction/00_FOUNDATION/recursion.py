@@ -1,5 +1,4 @@
 """
-
 def greet():
     print("Infinite Recursion")
     greet()
@@ -11,3 +10,17 @@ greet()
 
 
 """
+cnt = 0
+
+
+def cunt():
+    global cnt
+
+    if cnt == 4:
+        return
+
+    print("paro")
+    cnt += 1
+    cunt()
+
+cunt()
