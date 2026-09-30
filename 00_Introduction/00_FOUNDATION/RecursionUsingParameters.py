@@ -6,3 +6,13 @@ def func(n): # n is the time of print
     
 
 func(5)
+
+print("_______________________")
+
+def nnum(i ,n):
+    if i > n:
+        return
+    print(i)
+    nnum(i+1,n)
+
+nnum(1,4)
