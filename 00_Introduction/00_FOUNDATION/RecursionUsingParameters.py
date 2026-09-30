@@ -3,7 +3,7 @@ def func(n): # n is the time of print
         return 
     func(n-1)
     print(n)
-    
+
 
 func(5)
 
@@ -16,3 +16,16 @@ def nnum(i ,n):
     nnum(i+1,n)
 
 nnum(1,4)
+
+
+print("back tracking")
+
+
+def nnum(i, n):
+    if i > n:
+        return
+    nnum(i + 1, n)
+    print(i)
+
+
+nnum(1, 4)
