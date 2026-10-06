@@ -12,5 +12,4 @@ def insertion_sort(arr):
         arr[j+1] = key
     print(arr)
 
-
 insertion_sort(arr)
