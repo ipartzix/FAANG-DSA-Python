@@ -52,7 +52,7 @@
 arr = [5, 7, 8, 4, 1, 6, 9, 2]
 
 
-def merge_sort(arr):
+def marge_sort(arr):
 
     if len(arr) <= 1:
         return arr
@@ -62,13 +62,13 @@ def merge_sort(arr):
     left_arr = arr[:mid]
     right_arr = arr[mid:]
 
-    left = merge_sort(left_arr)
-    right = merge_sort(right_arr)
+    left = marge_sort(left_arr)
+    right = marge_sort(right_arr)
 
-    return mergeArr(left, right)
+    return margeArr(left, right)
 
 
-def mergeArr(left, right):
+def margeArr(left, right):
 
     result = []
 
@@ -97,4 +97,4 @@ def mergeArr(left, right):
     return result
 
 
-print(merge_sort(arr))
+print(marge_sort(arr))
