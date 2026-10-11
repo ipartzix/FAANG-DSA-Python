@@ -1,5 +1,5 @@
-# Find the 2nd largest element in the array 
-# general approch 
+# Find the 2nd largest element in the array
+# general approch
 arr = [12,33,5,3,4,34,88,99,50]
 lrg = arr[0]
 sec_lrg =arr[0]
@@ -11,3 +11,19 @@ for i in arr:
     if i> sec_lrg and i != lrg:
         sec_lrg= i
 print(f"sec largest is :- {sec_lrg}")
+
+# optimized approch
+
+arr = [12, 33, 5, 3, 4, 34, 88, 99, 50]
+
+lrg = float("-inf")
+sec_lrg = float("-inf")
+
+for i in arr:
+    if i > lrg:
+        sec_lrg = lrg
+        lrg = i
+    elif i > sec_lrg and i != lrg:
+        sec_lrg = i
+
+print(f"Second largest is: {sec_lrg}")
