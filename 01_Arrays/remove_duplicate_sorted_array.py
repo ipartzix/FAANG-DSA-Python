@@ -13,6 +13,7 @@ class Solution:
             j += 1
         return j
 
+# optimized 2 pointer approch (intrview)
 
 class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
