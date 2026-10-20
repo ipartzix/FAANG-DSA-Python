@@ -15,3 +15,16 @@ def maxSubArray(nums):
 print(maxSubArray(nums))
 
 
+class Solution:
+    # Kadane Algorithm
+    def maxSubArray(self, nums: list[int]) -> int:
+        n = len(nums)
+        maximum =  float("- inf")
+        total = 0
+
+        for i in range(0 , n):
+            total = total+ nums[i]
+            maximum = max(maximum, total)
+            if total< 0:
+                total  = 0
+        return maximum
