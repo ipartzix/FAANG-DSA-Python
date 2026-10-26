@@ -43,3 +43,24 @@ for i in range(0 ,row):
         else:
             print("$" , end=" ")
     print()
+
+# Left diagonal (\)
+
+print("_"*30)
+for i in range(0,row):
+    for j in range(0 , columns):
+        if i == j :
+            print(arr[i][j],end="")
+        else:
+            print("$", end=" ")
+    print()
+
+# Right diagonal (/)
+print("_"*30)
+for i in range(0 , row ):
+    for j in range(0 , columns):
+        if i +j == row-1:
+            print(arr[i][j], end=" ")
+        else:
+            print("@",end=" ")
+    print()
