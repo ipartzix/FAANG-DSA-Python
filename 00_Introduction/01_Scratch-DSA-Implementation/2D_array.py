@@ -64,3 +64,14 @@ for i in range(0 , row ):
         else:
             print("@",end=" ")
     print()
+
+
+# transpose
+print("_" * 30)
+result = [[0] * row for _ in range(columns)]
+
+for i in range(columns):
+    for j in range(row):
+        result[i][j] = arr[j][i]
+
+print(result)
