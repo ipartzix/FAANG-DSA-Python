@@ -20,3 +20,26 @@ def threeSum(nums):
 print(threeSum(nums))
 
 # time complexity = O(n^3)
+
+# better solution 
+def threeSum(nums):
+    n = len(nums)
+    result = set()
+
+    for i in range(n):
+        my_set = set()
+
+        for j in range(i + 1, n):
+            third = -(nums[i] + nums[j])
+
+            if third in my_set:
+                result.add(tuple(sorted([nums[i], nums[j], third])))
+
+            my_set.add(
+                nums[j]
+            )  # we need to remember previously visited numbers so we can find the third number.
+
+    return result
+
+
+print(threeSum(nums))
