@@ -21,7 +21,7 @@ print(threeSum(nums))
 
 # time complexity = O(n^3)
 
-# better solution 
+# better solution
 def threeSum(nums):
     n = len(nums)
     result = set()
@@ -35,11 +35,16 @@ def threeSum(nums):
             if third in my_set:
                 result.add(tuple(sorted([nums[i], nums[j], third])))
 
-            my_set.add(
-                nums[j]
-            )  # we need to remember previously visited numbers so we can find the third number.
+            my_set.add(nums[j])  # we need to remember previously visited numbers so we can find the third number.
 
     return result
 
 
 print(threeSum(nums))
+# time complexity = O(n^2)
+# Optimized Solution
+
+
+def threeSum(nums):
+    n = len(nums)
+      
