@@ -34,5 +34,9 @@ def foursum(nums , target):
                     temp = [ nums[i],nums[j],nums[k], fourthEle ]
                     temp.sort()
                     my_set.add(tuple(temp))
-                my_set.add(nums[k])
+                hash_set.add(nums[k])
     return list(my_set)
+
+
+# optimal solution
+
