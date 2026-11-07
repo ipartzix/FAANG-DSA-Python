@@ -11,4 +11,4 @@ class Solution:
                 right = mid - 1
             else:
                 left = mid + 1
-        return 0
+        return left # it ereturn the actual position of the element to insert if not found 
